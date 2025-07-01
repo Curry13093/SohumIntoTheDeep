@@ -3,9 +3,8 @@ package org.firstinspires.ftc.teamcode.subsystems.deposit;
 import com.acmerobotics.dashboard.config.Config;
 import com.qualcomm.robotcore.hardware.Servo;
 
-import org.firstinspires.ftc.teamcode.Robot;
+import org.firstinspires.ftc.teamcode.RobotHW;
 import org.firstinspires.ftc.teamcode.sensors.Sensors;
-import org.firstinspires.ftc.teamcode.utils.priority.PriorityServo;
 import org.firstinspires.ftc.teamcode.utils.priority.nPriorityServo;
 
 @Config
@@ -18,7 +17,7 @@ public class Arm {
 
     public static double openRad = 1.2456, closeRad = 0.10, closeLooseRad = 0.25;
 
-    public Arm(Robot robot) {
+    public Arm(RobotHW robot) {
         this.sensors = robot.sensors;
 
         armRotation = new nPriorityServo(

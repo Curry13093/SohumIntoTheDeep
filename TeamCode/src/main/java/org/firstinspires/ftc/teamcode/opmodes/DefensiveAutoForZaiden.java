@@ -15,7 +15,8 @@ import org.firstinspires.ftc.teamcode.utils.RunMode;
 @Config
 @Disabled
 @Autonomous(name = "B. Defense Sample Auto")
-public class DefensiveAutoForZaiden extends LinearOpMode {
+public class
+DefensiveAutoForZaiden extends LinearOpMode {
     private Robot robot;
 
     public static double sox = 24, soy = 12;

@@ -10,6 +10,9 @@ import org.firstinspires.ftc.teamcode.utils.TelemetryUtil;
 import org.firstinspires.ftc.teamcode.utils.Utils;
 
 public class nPriorityServo extends PriorityDevice {
+    public void setTargetPosition(double v) {
+    }
+
     public enum ServoType {
         // Radians/s is speed
         TORQUE(0.2162104887, Math.toRadians(60) / 0.25),
